@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Matcher</title>
+</head>
+<body>
+    <h4 style="color: green;">REGULAR EXPRESSION</h4>
+    <form action="/results" method="POST">
+        <textarea type="text" name="regex" placeholder="insert your pattern here">{{ pattern }}</textarea><br>
+        <textarea type="text" name="string" placeholder="insert your string here">{{ string }}</textarea><br>
+        <input type="submit" value="Find matches"><br>
+        <br>
+        <textarea name="matches"readonly>{{ match }}</textarea><br>
+    </form>
+    <br>
+    <form action="/email_validation">
+        <input type="submit" value="You can click here to validate your email address"><br>
+        <br>
+    </form>
+</body>
+</html>

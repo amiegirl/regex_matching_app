@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email validator</title>
+</head>
+<body>
+    <form action="/">
+        <button type="submit">return to Regex Matching</button><br>
+     </form>
+     <br>
+     <form action="/valid_email" method="POST">
+        <label style="color: green;" for="text">Check if your email is valid:</label><br>
+        <textarea type="text" name="e_mail" placeholder="type your email here">{{ e_mail }}</textarea><br>
+        <input type="submit" value="Validate email"><br>
+    </form>
+</body>
+</html> 
